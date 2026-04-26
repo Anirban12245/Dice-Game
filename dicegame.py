@@ -7,3 +7,5 @@ while True:
     choice = input("Roll again? (y/n): ").lower()
     if choice=="n":
         break
+    elif choice!="y":
+        print("Invalid choice, rolling again...")
